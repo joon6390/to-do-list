@@ -62,12 +62,13 @@ body {
   gap: 16px;
   max-height: 284px;
   margin-top: 16px;
+  overflow: auto;
 }
 .todo__item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 325px;
+  width: 300px;
   height: 44px;
   padding: 0 15px;
   background-color: rgba(53, 56, 62, 0.05);
